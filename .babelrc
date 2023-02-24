@@ -1,0 +1,15 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs",
+        "@babel/plugin-proposal-private-methods",
+        "@babel/plugin-proposal-class-properties"
+      ]
+    }
+  },
+  "plugins": [
+    "@babel/plugin-proposal-private-methods",
+    "@babel/plugin-proposal-class-properties"
+  ]
+}
